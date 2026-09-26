@@ -45,8 +45,15 @@ employee["email"] = "ram12@gmail.com"
 print("Employee Email:", employee["email"] )
 print ("After update:", employee)
 
+print ("Keys:", (employee.keys()))
+print ("Values:", (employee.values()))
+#Keys: dict_keys(['emp_id', 'name', 'role', 'email'])
+ #Values: dict_values([101, 'Ram', 'Engineer', 'ram12@gmail.com'])
 print ("Keys:", list(employee.keys()))
 print ("Values:", list(employee.values()))
+#Keys: ['emp_id', 'name', 'role', 'email']
+ #Values: #[101, 'Ram', 'Engineer', 'ram12@gmail.com
+
 
 print ("items:", list(employee.items()))
 # returns list of tuples. Using list it is accessed by Index.
@@ -79,3 +86,5 @@ attendance = {"Rahul", "Sagarika", "Rahul", "Amit", "Rahul"}
 print("Attendance:", attendance)
 
 
+
+       
